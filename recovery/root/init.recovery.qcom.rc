@@ -39,6 +39,8 @@ on fs
     chmod 0664 /dev/ion
     chown system system /dev/ion
 
+    setprop crypto.ready 0
+
 # Separate copy needed to use /sbin/linker64 instead of /system/bin/linker64
 service sbinqseecomd /sbin/qseecomd
     user root
