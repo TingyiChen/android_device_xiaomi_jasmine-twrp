@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := jasmine
+PRODUCT_RELEASE_NAME := jasmine_sprout
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -44,8 +44,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_jasmine
-PRODUCT_DEVICE := jasmine
+PRODUCT_NAME := omni_jasmine_sprout
+PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2
 PRODUCT_MANUFACTURER := Xiaomi
